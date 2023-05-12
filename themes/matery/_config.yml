@@ -43,7 +43,7 @@ menu:
         icon: fas fa-compass
       - name: 管理
         url: https://admin.skysun0311.top
-        icon: far fa-user-cog
+        icon: fas fa-user-cog
         
 # Website start time.
 # 站点运行开始时间.
