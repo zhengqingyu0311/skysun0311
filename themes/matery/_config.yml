@@ -33,15 +33,18 @@ menu:
         url: /Documents
         icon: fas fa-file-alt
       - name: 状态
-        url: https://zhengqingyu0311.betteruptime.com/
+        url: https://skysun0311.betteruptime.com/
         icon: fas fa-dot-circle
       - name: 主站
-        url: https://zhengqingyu0311.github.io
+        url: https://skysun0311.top
         icon: fas fa-television
       - name: 镜像站
-        url: https://zhengqingyu0311.netlify.app/
+        url: https://blog.skysun0311.top
         icon: fas fa-compass
-
+      - name: 管理
+        url: https://admin.skysun0311.top
+        icon: far fa-user-cog
+        
 # Website start time.
 # 站点运行开始时间.
 time:
