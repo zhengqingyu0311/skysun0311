@@ -38,12 +38,12 @@ menu:
       - name: 主站
         url: https://skysun0311.top
         icon: fas fa-television
-      - name: 镜像站
-        url: https://blog.skysun0311.top
-        icon: fas fa-compass
       - name: 管理
         url: https://admin.skysun0311.top
         icon: fas fas fa-user-shield
+      - name: 镜像站
+        url: https://blog.skysun0311.top
+        icon: fas fa-compass
         
 # Website start time.
 # 站点运行开始时间.
