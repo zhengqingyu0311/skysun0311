@@ -40,7 +40,7 @@ menu:
         icon: fas fa-television
       - name: 管理
         url: https://admin.skysun0311.top
-        icon: fas fas fa-user-shield
+        icon: fas fas fa-user-cog
       - name: 镜像站
         url: https://blog.skysun0311.top
         icon: fas fa-compass
