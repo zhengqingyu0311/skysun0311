@@ -64,7 +64,7 @@ baidusitemap:
 
 # 文章标题
 post:
-  enable: true
+  enable: false
   loop: false # 是否循环
   showCursor: true # 是否显示光标
   startDelay: 500 # 开始延迟
