@@ -31,18 +31,7 @@ if (page.img) {
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.typed) %>"></script>
-<% if (theme.post.enable) { %>
-    <script>
-        var typedObj = new Typed("#post-title", {
-            strings: [ '<%= page.title %>' ],
-            startDelay: <%= theme.post.startDelay %>,
-            typeSpeed: <%= theme.post.typeSpeed %>,
-            loop: <%= theme.post.loop %>,
-            backSpeed: <%= theme.post.backSpeed %>,
-            showCursor: <%= theme.post.showCursor %>
-        });
-    </script>
-<% } %>
+                        <h1 class="description center-align post-title"><%= page.title %></h1>
                 </div>
             </div>
         </div>
