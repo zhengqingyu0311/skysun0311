@@ -62,6 +62,15 @@ sitemap:
 baidusitemap:
  path: baidusitemap.xml
 
+# 文章标题
+post:
+  enable: true
+  loop: false # 是否循环
+  showCursor: true # 是否显示光标
+  startDelay: 500 # 开始延迟
+  typeSpeed: 100 # 打字速度
+  backSpeed: 50 # 删除速度
+
 # Index cover carousel configuration.
 # 首页封面轮播图的相关配置.
 cover:
@@ -98,7 +107,7 @@ music:
   autoHide: true    # hide automaticaly
   server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
-  id: 503838841     #require	song id / playlist id / album id / search keyword
+  id: 1830952762    #503838841     #require	song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式
   autoplay: false   # 是否自动播放
   theme: '#42b983'
@@ -210,7 +219,7 @@ reward:
 # 是否激活复制文章时追加博客和作者的版权信息.
 copyright:
   enable: true
-  minCharNumber: 150 # 至少复制多少个字符就追加版权信息.
+  minCharNumber: 300 # 至少复制多少个字符就追加版权信息.
   description: 本文章著作权归 zhengqingyu0311 所有，任何形式的转载都请注明出处。
 
 # Whether to activate the mathjax, this is a global configuration, but the post still does not open the mathjax rendering.
@@ -221,7 +230,7 @@ copyright:
 # Math Equations Render Support(kaTex)
 mathjax:
   enable: true
-  cdn:  https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css#https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  cdn:  https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css #KaTeX: https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css#MathJax: https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
  
 # Math Equations Render Support
 math:
@@ -232,7 +241,7 @@ math:
  
   katex:
     # Use 0.7.1 as default, jsdelivr as default CDN, works everywhere even in China
-    cdn: //cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css
+    cdn: //cdn.jsdelivr.net/npm/katex/dist/katex.min.css
     #cdn: //cdn.jsdelivr.net/npm/katex@0.7.1/dist/katex.min.css
     # CDNJS, provided by cloudflare, maybe the best CDN, but not works in China
     #cdn: //cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css
