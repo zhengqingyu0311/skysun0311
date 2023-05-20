@@ -1,12 +1,29 @@
 ---
 date: 2023-05-13 08:03:12
-excerpt: ' '
-layout: talks
+excerpt: '     ``` '
 title: talks
-updated: Sat, 20 May 2023 08:24:28 GMT
+updated: Sat, 20 May 2023 08:25:09 GMT
 ---
-<script src="https://cdn.jsdelivr.net/npm/qexo-static@1.5.1/hexo/talks.min.js"></script>
+<head>
+  <!-- ... -->
+  <script src="//cdn.jsdelivr.net/gh/Uyoahz26/daodao@main/dist/qexo-dao.min.js"></script>
+  <!-- ... -->
+</head>
+<body>
+  <!-- ... -->
+  <div id="qexoDaoDao"></div>
+  <script>
+    qexoDaodao?.init({
+      el: "#qexoDaoDao",
+      avatar: "https://cdn.luogu.com.cn/upload/usericon/247552.png",
+      name: "Skysun0311",
+      limit: 20,
+      useLoadingImg: false,
+      baseURL: "https:/admin.skysun0311.top/",
+    }).then(function (){
+      console.log("Qexo说说加载完成");
+    })
+  </script>
+</body>
+```
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qexo-static@1.5.1/hexo/talks.min.css">
-<div id="qexot"></div>
-<script>showQexoTalks("qexot", "${admin.skysun0311.top}", 5)</script>
