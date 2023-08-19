@@ -56,7 +56,8 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
-  theme: tomorrow-night-light
+  exclude_languages:
+    - none
 prismjs:
   enable: true
   preprocess: true
