@@ -56,6 +56,7 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+  theme: tomorrow-night-light
 prismjs:
   enable: true
   preprocess: true
@@ -123,13 +124,6 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: matery
-
-# hexo-admin authentification
-admin:
-  username: zhengqingyu0311
-  password_hash: $2a$10$DcjtwE2v95FaQAc5n2voq.s1vmSppErcgvsJ/l./vE5.3BFw9hufS
-  secret: zqy191196
-  deployCommand: ‘hexo-deploy.bat'
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
