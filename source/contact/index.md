@@ -4,7 +4,7 @@ excerpt: '...'
 layout: contact
 title: contact
 type: contact
-updated: 2023-8-22T21:10:28.204+8:0
+updated: 2023-8-22T21:13:5.606+8:0
 ---
 ![](https://api.xecades.xyz/api?site=zhengqingyu0311.github.io&email=zhengqingyu0717@126.com&luogu=zhengqingyu0311&codeforces=zhengqingyu&qq=1830952762)
 
@@ -22,4 +22,4 @@ updated: 2023-8-22T21:10:28.204+8:0
 
 ---
 
-$\texttt{[2023.08.22]: }$ 由于评论系统更新原因，该页面无法留言，有需要请移步[friends | skysun0311](https://skysun0311.top/friends)进行留言。
+$\texttt{[2023.08.22]: }$ 由于评论系统更新原因，该页面无法留言，有需要请移步 [friends | skysun0311](https://skysun0311.top/friends) 进行留言。
