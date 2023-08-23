@@ -93,8 +93,8 @@ index_generator:
   order_by: -date
 ### 跳过渲染
 skip_render:
-  - `talks/**`
-  - `links/**`
+  - "talks/**"
+  - "links/**""
 
 # Category & Tag
 default_category: uncategorized
