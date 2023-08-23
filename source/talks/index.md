@@ -17,7 +17,7 @@ layout: false
       name: "Skysun0311",
       limit: 20,
       useLoadingImg: false,
-      baseURL: "https:/admin.skysun0311.top/",
+      baseURL: "https://admin.skysun0311.top",
     }).then(function (){
       console.log("Qexo说说加载完成");
     })
