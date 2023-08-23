@@ -91,6 +91,9 @@ index_generator:
   path: ''
   per_page: 12
   order_by: -date
+### 跳过渲染
+skip_render:
+  - `talks/**`
 
 # Category & Tag
 default_category: uncategorized
