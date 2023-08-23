@@ -23,5 +23,3 @@ layout: false
     })
   </script>
 </body>
-```
-
