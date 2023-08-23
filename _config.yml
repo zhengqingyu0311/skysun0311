@@ -94,6 +94,7 @@ index_generator:
 ### 跳过渲染
 skip_render:
   - `talks/**`
+  - `links/**`
 
 # Category & Tag
 default_category: uncategorized
