@@ -454,7 +454,7 @@ valine:
 # Waline 评论模块的配置，默认为不激活，如要使用，就请激活该配置项
 # See: https://waline.js.org/
 waline:
-  enable: true
+  enable: false
   # Waline 服务端部署参考 https://waline.js.org/guide/server/intro.html 客户端和服务端版本需一致
   # 下面是一个例子，请替换成自己的服务端
   serverURL: waline-1-y8438630.deta.app #zhengqingyu0311.deta.dev
@@ -476,8 +476,8 @@ githubLink:
 # Twikoo 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置环境 ID envId.
 # See: https://twikoo.js.org
 twikoo:
-  enable: false
-  envId: twikoo-1gs9l0fb17e7897a # 环境 ID，搭建教程：https://twikoo.js.org/quick-start.html
+  enable: true
+  envId: comment.skysun0311.top #twikoo-1gs9l0fb17e7897a # 环境 ID，搭建教程：https://twikoo.js.org/quick-start.html
   # region: ap-guangzhou # 环境地域，默认为 ap-shanghai
   # path: 'window.location.pathname' # 自定义文章路径
 
